@@ -103,11 +103,17 @@ body {
 }
 
 ul {
-  list-style-image: url("../images/icons/check\ 1.svg");
-  margin-left: 25px;
+  list-style: none;
 }
 /* plan section design */
 
+li {
+  /** the image will be vertically aligned in the center **/
+  background: url("../images/icons/check\ 1.svg") left center no-repeat;
+
+  /** move the text to the right **/
+  padding-left: 30px;
+}
 .plan-item-img {
   width: 90px;
   height: 90px;
@@ -145,7 +151,9 @@ ul {
 .positive-item {
   width: 1140px;
   height: 300px;
-  background-image: url("../images/watch.png");
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png");
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
