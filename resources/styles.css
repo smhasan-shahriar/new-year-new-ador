@@ -15,11 +15,11 @@ body {
   height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  padding-right: 230px; 
+  padding-right: 230px;
 }
 
 .banner-title {
@@ -40,7 +40,7 @@ body {
   width: 500px;
   height: 80px;
   margin-top: 24px;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 .btn-banner {
@@ -51,7 +51,55 @@ body {
   text-align: right;
   font-size: 20px;
   font-weight: 700;
-  padding: 20px 25px; 
+  padding: 20px 25px;
   width: 160px;
   height: 60px;
+}
+/* failure section style */
+.failure-left {
+  width: 50%;
+  margin-left: 200px;
+}
+.failure-img {
+  display: block;
+  height: 700px;
+  width: 500px;
+  object-fit: contain;
+}
+
+.failure-items {
+  display: flex;
+  height: 800px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.failure-container {
+  width: 50%;
+}
+
+.failure-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.failure-description,
+.failure-list {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-right: 300px;
+}
+
+.failure-description {
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+
+ul {
+  list-style-image: url("../images/icons/check\ 1.svg");
+  margin-left: 25px;
 }
